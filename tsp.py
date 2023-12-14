@@ -1,5 +1,17 @@
 import itertools
 
+def addition(a, b):
+    return a + b
+
+def subtraction(a, b):
+    return a - b
+
+def multiplication(a, b):
+    return a * b
+    
+def division():
+    return a / b
+
 def distance(city1, city2):
     return distances_between_cities[city1][city2]
 

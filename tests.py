@@ -1,16 +1,14 @@
-def test_addition():
-    assert 1 + 1 == 2
+import unittest
+import tsp
 
-def test_subtraction():
-    assert 3 - 1 == 2
-
-def test_multiplication():
-    assert 2 * 3 == 6
+class TestOperations(unittest.TestCase)
     
-def test_division():
-    assert 4 / 2 == 2
-    
-test_addition();
-test_subtraction();
-test_multiplication();
-test_division();
+    def test_1(self):
+        self.assertEqual(tsp.addition(3, 2) == 5, True, "Should be True")
+    def test_2(self):
+        self.assertEqual(tsp.addition(7, 7) == 15, False, "Should be False")
+    def test_3(self):
+        self.assertNotEqual(tsp.addition(14, 2) == 2, True, "Should be not True")
+        
+if __name__=='__main__':
+    unittest.main()
