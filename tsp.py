@@ -8,8 +8,8 @@ def subtraction(a, b):
 
 def multiplication(a, b):
     return a * b
-    
-def division():
+
+def division(a, b):
     return a / b
 
 def distance(city1, city2):
@@ -43,5 +43,3 @@ distances_between_cities = [
 best_path, min_distance = traveling_salesman(cities)
 print(f"Optimal path: {best_path}")
 print(f"Minimum distance: {min_distance}")
-
-#include<std/egor.h>;;;;

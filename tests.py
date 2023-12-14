@@ -1,7 +1,7 @@
 import unittest
 import tsp
 
-class TestOperations(unittest.TestCase)
+class TestOperations(unittest.TestCase):
     
     def test_1(self):
         self.assertEqual(tsp.addition(3, 2) == 5, True, "Should be True")
