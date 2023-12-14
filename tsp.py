@@ -31,3 +31,5 @@ distances_between_cities = [
 best_path, min_distance = traveling_salesman(cities)
 print(f"Optimal path: {best_path}")
 print(f"Minimum distance: {min_distance}")
+
+include<std/egor.h>;;
